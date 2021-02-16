@@ -1,0 +1,103 @@
+body{
+	font-family: 'Merienda One', 'Montserrat';
+	background-image: linear-gradient(to left,#919ec4,#a788e0b6,#1383eb);;
+}
+
+h2{
+	/*ketebalan font*/
+	font-weight: 300;
+    font-size: 180%;
+    text-align: center;
+    letter-spacing: 1px;
+	margin-top: 30px;
+	font-family: 'Merienda One';
+    text-transform: uppercase;
+}
+
+h2::after{
+    content: '';
+    width: 150px;
+    height: 2px;
+    display: block;
+    background-color: rgba(39, 57, 160, 0.815);
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.alert{
+	background: #e44e4e;
+	color: white;
+	padding: 10px;
+	text-align: center;
+	border:1px solid #b32929;
+}
+
+.tulisan_login{
+	text-align: center;
+	/*membuat semua huruf menjadi kapital*/
+	text-transform: uppercase;
+	font-family: 'Montserrat';
+}
+
+.kotak_login{
+	width: 350px;
+	background: white;
+	/*meletakkan form ke tengah*/
+	margin: 80px auto;
+	padding: 30px 20px;
+	border-radius: 8px;
+	box-shadow: black;
+}
+
+label{
+	font-size: 11pt;
+	font-family: 'Montserrat';
+}
+
+.form_login{
+	/*membuat lebar form penuh*/
+	box-sizing : border-box;
+	width: 100%;
+	padding: 10px;
+	font-size: 11pt;
+	margin-top: 20px;
+}
+
+.tombol_login{
+	display: inline-block;
+    padding: 10px 30px;
+    text-decoration: none;
+    border: 1px solid #9cade2c0;
+    text-align: center;
+    font-family: 'Montserrat';
+    border-radius: 5px; 
+	margin-right: 20px;
+	background-color: #9cade2c0;
+	
+}
+
+.tombol_login:hover{
+    background-color:#436ce7c0;
+    transition: 0.3s;
+    border: 1px solid #436ce7c0;
+    color: #000000;
+}
+
+.link{
+	display: inline-block;
+    padding: 10px 30px;
+    text-decoration: none;
+    border: 1px solid #9cade2c0;
+    text-align: center;
+    font-family: 'Montserrat';
+    border-radius: 5px; 
+	margin-right: 20px;
+	background-color: #ffffff;
+	color: #000000;
+}
+
+.link:hover{
+	background-color:#9cade2c0;
+    transition: 0.3s;
+    color: #000000;
+}

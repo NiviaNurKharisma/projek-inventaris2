@@ -1,0 +1,43 @@
+body{
+	font-family: 'Merienda One', 'Raleway';
+	background-image:  linear-gradient(rgba(0, 0, 0 ,0.6) , rgba(0, 0, 0, 0.6) ), url(../kel.6/resources/img/opr.jpg);
+    background-size: cover;
+}
+
+h1{
+	font-weight: 360;
+	font-size: 240%;
+	text-align: center;
+	letter-spacing: 1px;
+	margin-top: 20%;
+	font-size: 'Merienda One';
+	text-transform: uppercase;
+	color: #ffffff;
+}
+p{
+    font-family: 'Raleway';
+    font-size: 16px;
+    color: #ffffff;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    text-align: center;
+}
+.btn{
+    display: inline-block;
+    padding: 10px 30px;
+    text-decoration: none;
+    border: 1px solid #9cade2c0;
+    text-align: center;
+    font-family: 'Raleway';
+    font-size: 14px;
+    border-radius: 8px; 
+	background-color: #9cade2c0;
+    margin-left: 60%;
+    margin-top: 40px;
+}
+
+.btn:hover{
+    background-color:#9cade2c0;
+    transition: 0.3s;
+    color: #ffffff;
+}
